@@ -9,10 +9,15 @@ body {
 }
 
 .jumbotron {
-    background-image: url(design//networkgreenblue.jpg);
+    background-image: url(design/networkgreenblue.jpg);
     text-align: center;
     color: white;
     margin-top: 15px;
+    
+}
+.lead {
+    font-size: 2.0rem;
+    font-weight: 400;
 }
 
 .row {
