@@ -13,7 +13,8 @@ body {
     text-align: center;
     color: white;
     margin-top: 15px;
-    
+    font-size: 2.0rem;
+    font-weight: 400;
 }
 .lead {
     font-size: 2.0rem;
