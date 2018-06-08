@@ -5,7 +5,6 @@ body {
     padding-top: 30px;
     padding-bottom: 20px;
     
-    
 }
 
 .jumbotron {
@@ -21,6 +20,14 @@ body {
     font-weight: 400;
 }
 
-.row {
+.section1 {
+  padding-right: 30px;  
   padding-left: 30px;
+  padding-bottom: 30px;
 }
+
+.section2 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
