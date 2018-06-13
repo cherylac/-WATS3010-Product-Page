@@ -1,10 +1,9 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
+
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    background: linear-gradient(to bottom right, blue, green)
+    background: linear-gradient(to bottom right, green, blue);
 }
 
 
@@ -21,7 +20,6 @@ body {
     font-size: 2.0rem;
     font-weight: 400;
     line-height: 100px;
-    position: fixed;
     min-width: 100%;
 }
 
@@ -31,27 +29,38 @@ body {
 }
 
 .section1 {
-  padding-right: 30px;  
-  padding-left: 30px;
+  padding-left: 30px;  
   padding-top: 50px;
-  padding-bottom: 30px;
   position: relative;
-  margin-top: 465px;
-  z-index: 100;
   color: white;
   font-weight: 600;
-  background: linear-gradient(to bottom right, green, blue);
+  margin-top: -10px;
+  margin-bottom: -10px;
+  min-width: 100%;
 }
 
+.display-5 {
+    text-align: left;
+    color: white;
+}
+.section3 {
+    margin-top: 20px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    color: white;
+    opacity: .8;
+}
 
-
-.section2 {
+.form-group {
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+   
 }
+
 
 /* footer styles */
 .footer-flex {
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -64,21 +73,6 @@ body {
 
 }
 
-.bg-dark {
-    color: blue;
-    opacity: 8;
-}
 
-.card {
-    flex: 1 1 auto;
-    padding: 1.25rem;
-    text-align: center;
-}
 
-.carousel {
-    margin-top: 30px;
-}
 
-.btn-md {
-    background-color: green;
-}
