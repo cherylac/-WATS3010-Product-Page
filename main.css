@@ -12,9 +12,11 @@ p {
     font-size: 120%;
 }
 
-.bg-dark {
-    background-color: #026820;
-}   
+a:hover {
+    color: green;
+}
+  
+/* Jumbotron */
 
 .hero1 {
     background-image: url(design/networkgreenblue.jpg);
@@ -27,10 +29,14 @@ p {
     
 }
 
+/* Jumbotron text */
+
 .lead {
     font-size: 2.0rem;
     font-weight: 400;
 }
+
+/* How it works */
 
 .section1 {
   padding-left: 30px;  
@@ -42,6 +48,7 @@ p {
   
 }
 
+/* Features */
 
 .section2 {
     padding-top: 90px;
@@ -51,10 +58,13 @@ p {
     opacity: .9;
 }
 
+/* Testimonials */
 
 .carousel-inner {
     font-style: italic;
 }
+
+/* Sign up from */
 
 .form-group {
     padding-top: 30px;
@@ -72,7 +82,8 @@ p {
 }
 
 
-/* footer styles */
+/* Footer */
+
 .footer-flex {
     
     display: flex;
@@ -89,8 +100,6 @@ p {
 
 }
 
-a:hover {
-    color: green;
-}
+
 
 
